@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1090px) {
+   #services{
+       flex-direction: column;
+   }
+   .box{
+       width:25em;
+   }
+  }
+  @media only screen and (max-width:816px) {
+      .client .sponser{
+          flex-wrap: wrap;
+      }
+  }
+ 

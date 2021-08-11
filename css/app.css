@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height:59px;
+}
+/* Natigation Bar */
+nav{
+    display: flex;
+    position: fixed;
+}
+
+.logo{
+    margin:0px 15px;
+}
+.logo img{
+    height: 47px;
+    width: 53px;
+    margin: 3px 6px;
+    border-radius: 50%
+}
+nav ul{
+    display: flex;
+}
+/* nav::before{
+    content:"";
+    background-color: black;
+    opacity:1;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+nav ul li{
+    padding: 10px 26px;
+    margin: 10px 17px;
+    list-style: none; 
+    
+}
+nav ul li a{
+    color:rgb(6, 212, 248);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+nav ul li a:hover{
+    color: rgb(13, 13, 14);
+    background-color: white;
+    border-radius: 6px;
+}
+/* Navigation End */
+
+/* Section Home */
+#home{
+    display:flex;
+    color:rgb(25, 139, 233);
+    flex-direction: column;
+    justify-content: center;
+    height:700px;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background:url('../img/bg1.jpg') no-repeat center center/cover;
+    opacity:1;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+/* 
+.div2{
+    width: 500px;
+    height:500px;
+    background-color: blue;
+    margin:0em 0em;
+} */
+#home h1{
+    font-size: 2.8em;
+}
+#home p{
+    font-size: 1.4em;
+}
+.btn{
+    padding:0.5em 3em;
+    margin-top:10px;
+    color:rgb(212, 73, 30);
+    background-color: rgb(143, 164, 202);
+    font-size: large;
+    font-weight: 900;
+    border-radius: 1em; 
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Section Home End */
+
+/* Services Section */
+.service-container{
+    margin-top: 0.7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(209, 206, 205);
+}
+.primary{
+    font-size: 3em;
+    font-weight: 900;  
+}
+#services{
+    display:flex;
+    margin-top: 2em; 
+}
+.box img{
+    margin-top: 5px;
+    height: 13em;
+    width: 20em;
+    border-radius: 3em;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(26, 0, 26);
+    margin: 0px 1em;
+    border-radius: 3em;
+    background-color: rgb(98, 100, 95);
+}
+.box h2{
+    padding:0.5em 2em;
+}
+.box p{
+    padding:0.5em 2em;
+}
+/* Services section end */
+
+/* Client Section */
+.client
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 2em;
+}
+.client::before{
+    content:"";
+    background: url('../img/bg2.jpg') no-repeat center;
+    opacity:1;
+    position:absolute;
+    height: 92%;
+    width: 100%;
+    z-index: -1;
+}
+.client .sponser{
+    display: flex;
+    justify-content: center;
+}
+.client .sponser img{
+    width: 8em;
+    height: 8em;
+    margin: 2em 2em;
+    border-radius: 2em;
+}
+
+/* Client Section Ends */
+
+/* Contact Section */
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.contact::before{
+  content: "";
+  position: absolute;
+  background: url('../img/contact.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+form input{
+    display: block;
+    width:100%;
+    padding: 0.6em 1em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+}
+form label{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 900;
+}
+.form-div{
+    margin-top: 2em;
+}
+form textarea{
+    display: block;
+}
+
+/* Contact Section Ends */
+
+/* Footer */
+.center{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.5em;
+    padding: 1.5em 0em;
+}
+/* End of footer */
